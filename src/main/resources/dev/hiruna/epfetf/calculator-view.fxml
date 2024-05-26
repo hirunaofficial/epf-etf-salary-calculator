@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="859.0" style="-fx-background-color: #131417;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.hiruna.epfetf.CalculatorController">
+   <children>
+      <AnchorPane id="headerPane" prefHeight="124.0" prefWidth="860.0" style="-fx-background-color: #252525;">
+         <children>
+            <Label layoutX="167.0" layoutY="40.0" text="EPF ETF Calculator (Salary Calculator)" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </children>
+         <AnchorPane.topAnchor>0.0</AnchorPane.topAnchor>
+         <AnchorPane.leftAnchor>0.0</AnchorPane.leftAnchor>
+         <AnchorPane.rightAnchor>0.0</AnchorPane.rightAnchor>
+      </AnchorPane>
+      <Label layoutX="53.0" layoutY="187.0" text="Enter the basic salary here in the box:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtSalery" layoutX="336.0" layoutY="181.0" prefHeight="33.0" prefWidth="264.0" style="-fx-background-color: white;">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+      <AnchorPane id="footerPane" layoutY="538.0" prefHeight="39.0" prefWidth="859.0" style="-fx-background-color: #252525;">
+         <AnchorPane.bottomAnchor>0.0</AnchorPane.bottomAnchor>
+         <AnchorPane.leftAnchor>0.0</AnchorPane.leftAnchor>
+         <AnchorPane.rightAnchor>0.0</AnchorPane.rightAnchor>
+         <children>
+            <Hyperlink layoutX="367.0" layoutY="6.0" onAction="#openURL" text="www.hiruna.dev" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </AnchorPane>
+      <Label fx:id="txtEMP1" layoutX="51.0" layoutY="274.0" text="Employee Contribution&#10;EPF (8%): " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtEMP2" layoutX="52.0" layoutY="348.0" text="Employer Contribution&#10;EPF (12%):&#10;ETF (3%):&#10;" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtEMP4" layoutX="438.0" layoutY="316.0" text="Total EPFs (8% + 12% = 20%): " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtEMP5" layoutX="438.0" layoutY="355.0" text="Total EPF+ETF (23%):" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtEMP6" layoutX="53.0" layoutY="434.0" prefHeight="81.0" prefWidth="281.0" text="Net Salary (92%): " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="618.0" layoutY="178.0" mnemonicParsing="false" onAction="#salaryCalculate" prefHeight="39.0" prefWidth="80.0" style="-fx-background-color: White;" text="Calculate" />
+      <Label fx:id="txtEMP3" layoutX="438.0" layoutY="274.0" text="Total Employer Contribution (15%):" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
