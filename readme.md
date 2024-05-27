@@ -63,7 +63,7 @@ A JavaFX application to calculate Employee Provident Fund (EPF) and Employee Tru
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the GPL-3.0 License. See the LICENSE file for details.
 
 ## Author
 
