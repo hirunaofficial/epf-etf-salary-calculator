@@ -65,10 +65,9 @@ A JavaFX application to calculate Employee Provident Fund (EPF) and Employee Tru
 
 This project is licensed under the GPL-3.0 License. See the LICENSE file for details.
 
-## Author
 
-GD Hiruna - [hiruna.dev](https://hiruna.dev)
+### Contact
 
----
-
-Feel free to reach out if you have any questions or need further assistance!
+- Author: Hiruna Gallage
+- Website: [hiruna.dev](https://hiruna.dev)
+- Email: [hello@hiruna.dev](mailto:hello@hiruna.dev)
